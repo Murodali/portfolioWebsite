@@ -1,0 +1,120 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position: fixed;
+  width: 60%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: auto;
+  border-radius: 2em;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal-body {
+  color: white;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 1em;
+}
+.modal-body svg {
+  width: 300px;
+  height: 300px;
+  margin-left: 2em;
+  margin-top: 2em;
+  margin-bottom: -1em;
+}
+.modal-body #Character {
+  -webkit-animation: float 1s infinite;
+          animation: float 1s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+.modal-body #Clouds {
+  -webkit-animation: float 1s infinite;
+          animation: float 1s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+.modal-body #paper_planes {
+  -webkit-animation: float 1s infinite;
+          animation: float 1s infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@-webkit-keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-30px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+.modal-body .text-featured {
+  width: 100%;
+  color: black;
+  margin-left: -4em;
+  text-align: center;
+}
+.modal-body .text-featured .subtitle {
+  color: #6A88D6;
+  text-transform: uppercase;
+  letter-spacing: 0.9em;
+  font-weight: bold;
+  margin-top: 3em;
+  font-size: large;
+}
+.modal-body .text-featured h2 {
+  margin-left: 1em;
+}
+
+.f {
+  text-align: end;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+.f button {
+  color: white;
+  background-color: #FC5BD8;
+  text-align: center;
+  padding: 0.5em 2.4em;
+  border-radius: 2em;
+  -webkit-transition: transform 1.05s ease-in-out;
+  -moz-transition: transform 1.05s ease-in-out;
+  -ms-transition: transform 1.05s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.f button:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=modal.css.map */

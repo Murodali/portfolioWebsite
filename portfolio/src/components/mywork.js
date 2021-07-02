@@ -7,11 +7,12 @@ import { timers } from 'jquery';
 import Message from './CardsModal';
 import  { useState } from 'react'
 import { Component } from 'react';
-
+import Doc from './finddocModal';
 export default class mywork extends Component {
 
 	state ={
 		isDescription:false,
+		isFindDoc:false,
 	  }
 	
 
@@ -22,6 +23,16 @@ export default class mywork extends Component {
 	closeDescription =()=> {
 		this.setState({
 		  isDescription: false})
+		
+	  }
+
+	  openFindDoc = ()=>{
+		this.setState({isFindDoc:true})
+	}
+
+	closeFindDoc =()=> {
+		this.setState({
+		  isFindDoc: false})
 		
 	  }
 
@@ -54,7 +65,7 @@ export default class mywork extends Component {
 							<div class="info">
 								<h1>FindaDoc Website</h1>
 								<p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
-								<button onClick={this.openModal}> Learn More</button>
+								<button onClick={this.openFindDoc}> Learn More</button>
 							</div>
 						</li>
 						</Fade>
@@ -131,15 +142,11 @@ export default class mywork extends Component {
 			</div>
 	
 			<Message visible={this.state.isDescription} closeDescription={this.closeDescription}></Message>
-		
+			<Doc visible={this.state.isFindDoc} closeFindDoc={this.closeFindDoc}></Doc>
 			</div>
 	
 		)
 	}
-
-
-
-
 }
 
 
@@ -161,3 +168,5 @@ function Particle({ children }) {
 		</div>
 	);
 }
+
+

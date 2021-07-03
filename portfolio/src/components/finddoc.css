@@ -210,7 +210,7 @@
     margin-top: 1em;
   }
   .modal-body-doc .carousel img {
-    width: 500px;
+    width: 500px !important;
   }
   .modal-body-doc img {
     margin: auto;
@@ -220,11 +220,12 @@
     margin: auto;
   }
   .modal-body-doc .row-diagrams img {
-    width: 500px;
-    margin-left: 1.8em;
+    width: 500px !important;
+    margin-left: 0.3em !important;
   }
   .modal-body-doc .gitlab a {
-    margin-bottom: 2em;
+    margin: auto !important;
+    margin-left: 1em !important;
   }
 
   .col {
@@ -243,7 +244,7 @@
     margin-top: 1em;
   }
   .modal-body-doc .carousel img {
-    width: 600px;
+    width: 600px !important;
   }
   .modal-body-doc img {
     margin: auto;
@@ -253,7 +254,7 @@
     margin: auto;
   }
   .modal-body-doc .row-diagrams img {
-    width: 500px;
+    width: 600px !important;
   }
   .modal-body-doc .gitlab a {
     margin-bottom: 2em;
@@ -286,7 +287,7 @@
   }
   .modal-body-doc .row-diagrams img {
     width: 800px;
-    margin-left: 3em;
+    margin-left: 1em;
   }
   .modal-body-doc .gitlab a {
     margin-bottom: 2em;

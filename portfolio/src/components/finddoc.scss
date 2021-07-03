@@ -232,7 +232,7 @@
 
       img{
 
-        width: 500px;
+        width: 500px !important;
       }
     }
 
@@ -244,14 +244,17 @@
     .row-diagrams{
       margin: auto;
       img{
-        width: 500px;
-        margin-left: 1.8em;
+        width: 500px !important;
+        margin-left: 0.3em !important;
+     
       }
     }
 
     .gitlab{
       a{
-        margin-bottom: 2em;
+        
+        margin: auto !important;
+        margin-left: 1em !important;
         
       }
     }
@@ -284,7 +287,7 @@
 
       img{
 
-        width: 600px;
+        width: 600px !important;
       }
     }
 
@@ -296,7 +299,7 @@
     .row-diagrams{
       margin: auto;
       img{
-        width: 500px;
+        width: 600px !important;
     
       }
     }
@@ -349,7 +352,7 @@
       margin: auto;
       img{
         width: 800px;
-        margin-left: 3em;
+        margin-left: 1em;
     
       }
     }

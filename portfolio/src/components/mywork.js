@@ -4,30 +4,27 @@ import Fade from 'react-reveal/Fade';
 import ReactParticles from 'react-particles-js';
 import particlesConfig from './Particles (2)';
 import { timers } from 'jquery';
-import Message from './CardsModal';
+import Web from './websiteModal';
 import  { useState } from 'react'
 import { Component } from 'react';
 import Doc from './finddocModal';
+
+
+
 export default class mywork extends Component {
 
 	state ={
-		isDescription:false,
 		isFindDoc:false,
+		isWebsite:false,
+	
 	  }
 	
 
-	openModal = ()=>{
-		this.setState({isDescription:true})
-	}
 
-	closeDescription =()=> {
-		this.setState({
-		  isDescription: false})
-		
-	  }
 
-	  openFindDoc = ()=>{
+	openFindDoc = ()=>{
 		this.setState({isFindDoc:true})
+		
 	}
 
 	closeFindDoc =()=> {
@@ -35,6 +32,19 @@ export default class mywork extends Component {
 		  isFindDoc: false})
 		
 	  }
+
+	  openWebsite = ()=>{
+		this.setState({isWebsite:true})
+		
+	}
+
+	closeWebsite =()=> {
+		this.setState({
+		  isWebsite: false})
+		
+	  }
+
+
 
 	render(){
 		return (
@@ -76,12 +86,14 @@ export default class mywork extends Component {
 							<img src="images/website.png"></img>
 							<div class="info">
 								<h1>Murodali</h1>
-								<p>This is my Personal Portfolio Website</p>
-								<button onCLick={this.openModal}>Learn More</button>
+								<p>This is FindaDoc website and android mobile application</p>
+								<button onClick={this.openWebsite}> Learn More</button>
 							</div>
 						</li>
 	
 						</Fade>
+
+
 	
 						{/* <Fade left>  
 	
@@ -140,9 +152,10 @@ export default class mywork extends Component {
 				</div>
 				</Particle>
 			</div>
-	
-			<Message visible={this.state.isDescription} closeDescription={this.closeDescription}></Message>
+
 			<Doc visible={this.state.isFindDoc} closeFindDoc={this.closeFindDoc}></Doc>
+			<Web visible={this.state.isWebsite} closeWebsite={this.closeWebsite}></Web>
+			
 			</div>
 	
 		)

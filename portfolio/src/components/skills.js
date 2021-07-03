@@ -193,7 +193,7 @@ const cards = [
 		info: "Things I enjoy designing",
 		addinfo:"UX, UI, Web, Mobile, Apps, Logos",
 		tools: "Design Tools",
-		toolslist:" Balsamiq Mockups Figma Invision Marvel Pen & Paper Sketch Webflow Zeplin ReactStrap WordPress",
+		toolslist:" Balsamiq Mockups Figma Invision Marvel Pen & Paper Sketch Webflow Zeplin WordPress",
 		image: "images/ui-main.svg",
 		imageRatio: 784 / 1016
 	},
@@ -215,7 +215,7 @@ const cards = [
 		info: "Languages and Frameworks I use:",
 		addinfo:"Java, Dart",
 		tools: "Dev Tools:",
-		toolslist:" Android Studio Flutter Github Gitlab JavaFX FireBase NodeJS REST API dsdsdd dsadasd dasdasd",
+		toolslist:" Android Studio Flutter Github Gitlab JavaFX FireBase NodeJS REST API ",
 		image: "images/mb-dev.svg",
 		imageRatio: 730 / 1030
 	}

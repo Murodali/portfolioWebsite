@@ -8,58 +8,58 @@ export default class testimonials extends Component {
         return (
             <div className="main-test">
 
+                <img src="images/people1.svg" className="test"></img>
 
-<img src="images/people1.svg" className="test"></img>
 
                 <div class=" testimonials   ">
 
 
-<Fade left>  
+                    <Fade left>
 
-                    <div className="text-featured">
-                        <p className="subtitle ">Testimonials</p>
-                       
-                        <p className="featured-desc ">People I've worked with have said some nice things...</p>
-                    </div>
+                        <div className="text-featured">
+                            <p className="subtitle ">Testimonials</p>
+
+                            <p className="featured-desc ">People I've worked with have said some nice things...</p>
+                        </div>
                     </Fade>
-<Fade right> 
-                    <div className="people">
-                        <Carousel className="k">
-                            <Carousel.Item interval={1500}>
-                                <div className="avatar">
-                                    <img src="images/seo.png"></img>
-                                </div>
+                    <Fade right>
+                        <div className="people">
+                            <Carousel className="k">
+                                <Carousel.Item interval={1500}>
+                                    <div className="avatar">
+                                        <img src="images/seo.png"></img>
+                                    </div>
 
-                                <div className="info">
-                                    <h3>Umed Babakhanov</h3>
-                                    <p>CEO of ASIA PLUS, Tajkistan</p>
-                                    <p>Murodali did an excelent job for out company</p>
-                                </div>
+                                    <div className="info">
+                                        <h3>Umed Babakhanov</h3>
+                                        <p>CEO of ASIA PLUS, Tajkistan</p>
+                                        <p>Murodali did an excelent job for out company</p>
+                                    </div>
 
-                            </Carousel.Item>
+                                </Carousel.Item>
 
-                             <Carousel.Item interval={1500}>
-                                <div className="avatar">
-                                    <img src="images/seo.png"></img>
-                                </div>
+                                <Carousel.Item interval={1500}>
+                                    <div className="avatar">
+                                        <img src="images/seo.png"></img>
+                                    </div>
 
-                                <div className="info">
-                                    <h3>Umed Babakhanov</h3>
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                    <p>Murodali did an excelent job for out company</p>
-                                </div>
+                                    <div className="info">
+                                        <h3>Umed Babakhanov</h3>
+                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                        <p>Murodali did an excelent job for out company</p>
+                                    </div>
 
-                            </Carousel.Item>
+                                </Carousel.Item>
 
-            
 
-                        </Carousel>
 
-                    </div>
+                            </Carousel>
+
+                        </div>
                     </Fade>
 
                 </div>
-              
+
 
             </div>
         )

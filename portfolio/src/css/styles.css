@@ -1111,200 +1111,303 @@ ul {
   padding-bottom: 4em;
 }
 
-@media screen and (width: 500px) {
-  .navbar-toggler {
-    margin-right: 20px !important;
-    font-size: 14px !important;
-  }
-
-  .navbar-light .navbar-brand {
-    color: #10F3E6 !important;
-    font-size: 14px !important;
-  }
-
-  .navbar-collapse {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    text-align: center !important;
-  }
-
-  .hero {
-    padding-top: 4em;
-    width: 100%;
-  }
-  .hero img {
-    display: none;
-  }
-  .hero svg {
-    display: none;
-  }
-  .hero .text-container {
-    width: 100%;
+@media only screen and (max-width: 576px) {
+  .intro {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
     text-align: center;
+  }
+  .intro .text-container {
+    text-align: center;
+  }
+  .intro .text-container h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .intro .text-container p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .intro svg {
+    display: none;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-left: 70%;
   }
-  .hero .text-container h1 {
-    font-size: 35px;
-    font-weight: bold;
+  .about .text-featured {
+    margin: auto;
+  }
+  .about .text-featured .subtitle {
+    margin-bottom: 1em;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
   }
-  .hero .text-container p {
-    font-size: 14px;
-    margin-left: auto;
-    margin-right: auto;
+  .about .text-featured p {
+    margin-left: 2em;
+    margin-right: 2em;
   }
-  .hero .text-container .more-about {
-    color: #FC5BD8;
-    margin-left: auto;
-    margin-right: auto;
+  .about img {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+
+  .work .work-row ul {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
   }
 
   .testimonials {
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(1, auto);
+    justify-content: center;
     align-items: center;
   }
-  .testimonials .text-featured {
-    width: 100%;
-  }
-  .testimonials .text-featured .subtitle {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
-  }
-  .testimonials .text-featured h2 {
-    text-align: center;
-    margin: auto;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .testimonials .text-featured .featured-desc {
-    margin-left: 1em;
-    margin-right: 1em;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 1em;
-  }
-  .testimonials .text-featured .subtitle {
-    color: #6A88D6;
-    text-transform: uppercase;
-    letter-spacing: 0.9em;
-    font-weight: bold;
-  }
-  .testimonials .people {
-    display: block;
-    margin-right: 2em;
-    width: 100%;
-  }
 
-  .featured {
-    color: black;
+  .interested .interested-row {
     display: grid;
-    justify-content: center;
     grid-template-columns: repeat(1, auto);
-    align-items: center;
-    background-color: white;
-  }
-  .featured .text-featured {
-    width: 100%;
-  }
-  .featured .text-featured .subtitle {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 14px;
-  }
-  .featured .text-featured h2 {
-    text-align: center;
-    margin: auto;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .featured .text-featured .featured-desc {
-    margin-left: 1em;
-    margin-right: 1em;
-    font-size: 12px;
-    text-align: center;
-    margin-top: 1em;
-  }
-  .featured .text-featured .subtitle {
-    color: #6A88D6;
-    text-transform: uppercase;
-    letter-spacing: 0.9em;
-    font-weight: bold;
-  }
-  .featured .project-row {
-    width: 100%;
-  }
-  .featured img {
-    width: 90%;
-    border-radius: 2em;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .skills {
-    display: block;
     justify-content: center;
-    overflow-x: hidden;
-  }
-  .skills .skills-row ul {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: start;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-  .skills .skills-row ul li {
-    display: block;
-    margin-left: auto;
-    overflow: hidden;
-    width: auto;
+    align-items: center;
   }
 
-  .work .work-text {
-    text-align: center;
-    margin: auto;
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
   }
-  .work .text-work .subtitle {
-    margin-left: auto;
-  }
-  .work .work-row ul {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: start;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-
   .contact .text-container {
-    width: 150%;
+    margin: auto;
     text-align: center;
-  }
-  .contact .text-container p {
-    text-align: center;
-  }
-  .contact .text-container .btn {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .contact img {
-    display: none;
   }
   .contact svg {
     display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .intro {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    text-align: center;
+  }
+  .intro .text-container {
+    text-align: center;
+  }
+  .intro .text-container h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .intro .text-container p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .intro svg {
+    display: none;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+  }
+  .about .text-featured {
+    margin: auto;
+  }
+  .about .text-featured .subtitle {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  .about .text-featured p {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .about img {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+
+  .work .work-row ul {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .interested .interested-row {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .text-container {
+    margin: auto;
+    text-align: center;
+  }
+  .contact svg {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #home .wave {
+    height: 40vh;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    top: 15vh;
+  }
+  .intro .text-container h1 {
+    font-size: 70px;
+  }
+  .intro .text-container p {
+    font-size: 18px;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+  .about .text-featured {
+    margin: auto;
+  }
+  .about .text-featured .subtitle {
+    margin-left: 2.7em;
+  }
+  .about .text-featured p {
+    margin-left: 5em;
+    margin-right: 2em;
+  }
+  .about img {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+
+  .work .work-row ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .interested .interested-row {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    margin-top: -1em;
+  }
+  .contact .text-container {
+    margin-left: 6em;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #home .wave {
+    height: 40vh;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    top: 15vh;
+  }
+  .intro .text-container h1 {
+    font-size: 70px;
+  }
+  .intro .text-container p {
+    font-size: 18px;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+  .about .text-featured {
+    margin: auto;
+  }
+  .about .text-featured .subtitle {
+    margin-left: 2.7em;
+  }
+  .about .text-featured p {
+    margin-left: 5em;
+    margin-right: 2em;
+  }
+  .about img {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+
+  .work .work-row ul {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+
+  .interested .interested-row {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    margin-top: -1em;
+  }
+  .contact .text-container {
+    margin-left: 6em;
   }
 }/*# sourceMappingURL=styles.css.map */

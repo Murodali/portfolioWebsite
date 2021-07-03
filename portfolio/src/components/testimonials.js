@@ -38,19 +38,18 @@ export default class testimonials extends Component {
 
                                 </Carousel.Item>
 
-                                <Carousel.Item interval={1500}>
+                                <Carousel.Item interval={500}>
                                     <div className="avatar">
                                         <img src="images/seo.png"></img>
                                     </div>
 
                                     <div className="info">
                                         <h3>Umed Babakhanov</h3>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                        <p>CEO of ASIA PLUS, Tajkistan</p>
                                         <p>Murodali did an excelent job for out company</p>
                                     </div>
 
                                 </Carousel.Item>
-
 
 
                             </Carousel>

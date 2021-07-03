@@ -207,6 +207,7 @@
     -moz-transition: transform 1.05s ease-in-out;
     -ms-transition: transform 1.05s ease-in-out;
     width: 120px;
+    margin-top: 2em;
     margin-left: 6em;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
   }
@@ -218,3 +219,157 @@
   }
 }
 
+@media only screen and (max-width: 576px){
+
+  .modal-body-doc{
+  
+    .carousel{
+      text-align: center;
+      border-radius: 2em;
+      margin-bottom: 2em;
+      margin-top: 1em;
+    
+
+      img{
+
+        width: 500px;
+      }
+    }
+
+    img{
+      margin: auto;
+      width: 500px;
+    }
+
+    .row-diagrams{
+      margin: auto;
+      img{
+        width: 500px;
+        margin-left: 1.8em;
+      }
+    }
+
+    .gitlab{
+      a{
+        margin-bottom: 2em;
+        
+      }
+    }
+  
+  }
+
+  .col{
+    margin: auto;
+    p{
+      width: 300px;
+      margin: auto;
+    }
+  }
+  
+  
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+  .modal-body-doc{
+  
+    .carousel{
+      text-align: center;
+      border-radius: 2em;
+      margin-bottom: 2em;
+      margin-top: 1em;
+    
+
+      img{
+
+        width: 600px;
+      }
+    }
+
+    img{
+      margin: auto;
+      width: 700px;
+    }
+
+    .row-diagrams{
+      margin: auto;
+      img{
+        width: 500px;
+    
+      }
+    }
+
+    .gitlab{
+      a{
+        margin-bottom: 2em;
+        
+      }
+    }
+  
+  }
+
+  .col{
+    margin: 2em;
+    p{
+      width: 300px;
+      margin: auto;
+    }
+  }
+  
+  
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+  .modal-body-doc{
+  
+    .carousel{
+      text-align: center;
+      border-radius: 2em;
+      margin-bottom: 2em;
+      margin-top: 1em;
+    
+
+      img{
+
+        width: 800px;
+      }
+    }
+
+    img{
+      margin: auto;
+      width: 800px;
+    }
+
+    .row-diagrams{
+      margin: auto;
+      img{
+        width: 800px;
+        margin-left: 3em;
+    
+      }
+    }
+
+    .gitlab{
+      a{
+        margin-bottom: 2em;
+        
+      }
+    }
+  
+  }
+
+  .col{
+    margin: 2em;
+    p{
+      width: 300px;
+      margin: auto;
+    }
+  }
+  
+  
+}

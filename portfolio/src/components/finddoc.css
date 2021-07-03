@@ -194,9 +194,109 @@
   -moz-transition: transform 1.05s ease-in-out;
   -ms-transition: transform 1.05s ease-in-out;
   width: 120px;
+  margin-top: 2em;
   margin-left: 6em;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 .f button:hover {
   transform: scale(1.05);
+}
+
+@media only screen and (max-width: 576px) {
+  .modal-body-doc .carousel {
+    text-align: center;
+    border-radius: 2em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  .modal-body-doc .carousel img {
+    width: 500px;
+  }
+  .modal-body-doc img {
+    margin: auto;
+    width: 500px;
+  }
+  .modal-body-doc .row-diagrams {
+    margin: auto;
+  }
+  .modal-body-doc .row-diagrams img {
+    width: 500px;
+    margin-left: 1.8em;
+  }
+  .modal-body-doc .gitlab a {
+    margin-bottom: 2em;
+  }
+
+  .col {
+    margin: auto;
+  }
+  .col p {
+    width: 300px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .modal-body-doc .carousel {
+    text-align: center;
+    border-radius: 2em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  .modal-body-doc .carousel img {
+    width: 600px;
+  }
+  .modal-body-doc img {
+    margin: auto;
+    width: 700px;
+  }
+  .modal-body-doc .row-diagrams {
+    margin: auto;
+  }
+  .modal-body-doc .row-diagrams img {
+    width: 500px;
+  }
+  .modal-body-doc .gitlab a {
+    margin-bottom: 2em;
+  }
+
+  .col {
+    margin: 2em;
+  }
+  .col p {
+    width: 300px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .modal-body-doc .carousel {
+    text-align: center;
+    border-radius: 2em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  .modal-body-doc .carousel img {
+    width: 800px;
+  }
+  .modal-body-doc img {
+    margin: auto;
+    width: 800px;
+  }
+  .modal-body-doc .row-diagrams {
+    margin: auto;
+  }
+  .modal-body-doc .row-diagrams img {
+    width: 800px;
+    margin-left: 3em;
+  }
+  .modal-body-doc .gitlab a {
+    margin-bottom: 2em;
+  }
+
+  .col {
+    margin: 2em;
+  }
+  .col p {
+    width: 300px;
+    margin: auto;
+  }
 }/*# sourceMappingURL=finddoc.css.map */

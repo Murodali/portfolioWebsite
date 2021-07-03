@@ -135,8 +135,9 @@ export default class ModalDoc extends Component {
 
                                                 <h1 className="subtitle">📱FindaDoc<Icon className="icon" icon={heartbeatIcon} />  </h1>
 
-                                                <h4>About:</h4></div>
+                                                <h4>About:</h4>
                                                 <p>This is the android application of the FindaDoc website that I built. This is the first protype.</p>
+                                                </div>
                                         </div>
 
                                         <div className="carousel">

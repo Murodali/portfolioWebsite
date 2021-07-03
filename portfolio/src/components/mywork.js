@@ -64,7 +64,7 @@ export default class mywork extends Component {
 							<img src="images/finddoc.png"></img>
 							<div class="info">
 								<h1>FindaDoc Website</h1>
-								<p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+								<p>This is FindaDoc website and android mobile application</p>
 								<button onClick={this.openFindDoc}> Learn More</button>
 							</div>
 						</li>
@@ -73,17 +73,17 @@ export default class mywork extends Component {
 						<Fade right>   
 	
 						<li>
-							<img src="images/small.png"></img>
+							<img src="images/website.png"></img>
 							<div class="info">
-								<h1>FindaDoc Mobile Application</h1>
-								<p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+								<h1>Murodali</h1>
+								<p>This is my Personal Portfolio Website</p>
 								<button onCLick={this.openModal}>Learn More</button>
 							</div>
 						</li>
 	
 						</Fade>
 	
-						<Fade left>  
+						{/* <Fade left>  
 	
 						<li>
 							<img src="images/rideapp.png"></img>
@@ -132,7 +132,7 @@ export default class mywork extends Component {
 							</div>
 						</li>
 	
-						</Fade>
+						</Fade> */}
 	
 					</ul>
 	

@@ -63,6 +63,30 @@
 .modal-body-doc .col {
   width: 300px;
 }
+.modal-body-doc .row-diagrams img {
+  margin-left: 5em;
+  margin-bottom: 3em;
+  width: 970px;
+}
+.modal-body-doc .gitlab a {
+  padding: 0.5em 1.2em;
+  outline: none;
+  border: none;
+  border-radius: 2em;
+  background: #FC5BD8;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease;
+  -webkit-transition: transform 1.05s ease-in-out;
+  -moz-transition: transform 1.05s ease-in-out;
+  -ms-transition: transform 1.05s ease-in-out;
+  width: auto;
+  margin-left: 5em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.modal-body-doc .gitlab a:hover {
+  transform: scale(1.05);
+}
 @-webkit-keyframes shake {
   0% {
     transform: translate(1px, 1px) rotate(0deg);
@@ -149,6 +173,7 @@
   -moz-transition: transform 1.05s ease-in-out;
   -ms-transition: transform 1.05s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  width: 1000px;
 }
 
 .f {
@@ -157,14 +182,19 @@
   margin-bottom: 1em;
 }
 .f button {
-  color: white;
-  background-color: #FC5BD8;
-  text-align: center;
-  padding: 0.5em 2.4em;
+  padding: 0.5em 1.2em;
+  outline: none;
+  border: none;
   border-radius: 2em;
+  background: #FC5BD8;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease;
   -webkit-transition: transform 1.05s ease-in-out;
   -moz-transition: transform 1.05s ease-in-out;
   -ms-transition: transform 1.05s ease-in-out;
+  width: 120px;
+  margin-left: 6em;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
 }
 .f button:hover {

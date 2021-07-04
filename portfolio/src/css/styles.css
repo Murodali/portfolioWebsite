@@ -904,6 +904,9 @@ ul {
   margin-left: 1em;
   margin-right: 1em;
 }
+.footer svg:hover {
+  transform: scale(1.1);
+}
 .footer #clip0:hover {
   color: #FC5BD8;
 }

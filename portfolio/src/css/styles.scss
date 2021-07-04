@@ -1232,6 +1232,10 @@ ul {
   svg {
     margin-left: 1em;
     margin-right: 1em;
+
+    &:hover{
+      transform: scale(1.1);
+    }
   }
 
   #clip0:hover {

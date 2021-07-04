@@ -25,7 +25,8 @@
 }
 
 .navbar-collapse {
-  margin-left: 20em !important;
+ text-align: center !important;
+ margin-left: 18em !important;
 }
 
 
@@ -139,13 +140,14 @@
 
 
     svg{
-      width: 5%;
+    width: 5%;
     text-align: left;
     display: inline-block;
-    /* left: -4em; */
-    margin-top: 0em;
+    left: -4em;
+    margin-top: 1em;
     margin-left: 1em;
     justify-content: left;
+    animation: float 1s infinite;
     }
 
 }
@@ -160,12 +162,12 @@
     width: 5%;
     text-align: left;
     display: inline-block;
-    /* left: -4em; */
-    margin-top: 0em;
+    left: -4em;
+    margin-top: 1em;
     margin-left: 1em;
     justify-content: left;
-  
-  }
+    animation: float 1s infinite;
+    }
 }
 
 .scroll-down-right{
@@ -187,12 +189,14 @@
   animation-iteration-count: infinite;
   margin-left: 1em;
 
+  
 
     animation: float 1s infinite;
     transform-origin: center;
     transform-box: fill-box;
 
 }
+
 
 
     .text-container {
@@ -250,7 +254,7 @@
 
   svg {
     width: 55%;
-    margin-left: 12em;
+    margin-left: 14em;
 
     
 
@@ -365,6 +369,7 @@ ol, ul{
   padding-top: 4em;
   padding-bottom: 4em;
   margin-top: 4em;
+  justify-content: center;
 
 
   .text-featured {
@@ -387,7 +392,8 @@ ol, ul{
 
   img{
     width: 60%;
-    margin-left: 14em;
+    margin-left: 11em;
+    margin-top: 3em;
     display: block;
     z-index: 1;
     overflow-x:hidden;
@@ -735,12 +741,12 @@ ul {
         font-weight: 100;
       }
     
-      @media screen and (min-width: 922px) {
-        font-size: 18px;
-        .notice {
-          display: none;
-        }
-      }
+      // @media screen and (min-width: 922px) {
+      //   font-size: 18px;
+      //   .notice {
+      //     display: none;
+      //   }
+      // }
     }
     
 
@@ -768,7 +774,16 @@ ul {
 
       @media screen and (min-width: 922px) {
         width: 33.33333333333333%;
+    
       }
+
+      // @media screen and (min-width: 768px) {
+      //   width: 500px;
+      //   margin-left: 8em;
+      //   margin-right: 8em;
+      //   margin-bottom: 1em;
+    
+      // }
     }
     
     .card {
@@ -1453,13 +1468,18 @@ ul {
     }
   }
 
+  .navbar-collapse {
+    text-align: center !important;
+    margin: auto !important;
+   }
+
   .intro{
-    display: grid;
-    grid-template-columns: repeat(3,auto) !important;
+    display: grid !important;
+    grid-template-columns: repeat(1,auto) !important;
     
     text-align: center !important;
     .text-container{
-      margin-left: 4em;
+     margin: auto;
       margin-top: 2em;
 
 
@@ -1480,6 +1500,11 @@ ul {
     svg{
       display: none;
     }
+
+    .scroll-down{
+      display: none;
+    }
+
   }
 
   .about{
@@ -1507,6 +1532,18 @@ ul {
       display: block;
       margin: auto;
       width: 80%;
+    }
+  }
+
+  .skills{
+
+    .text-featured{
+      text-align: center;
+      margin: auto !important;
+      p{
+        text-align: center !important;
+        margin: auto !important;
+      }
     }
   }
 
@@ -1538,6 +1575,27 @@ ul {
 
     .people{
       margin: auto;
+    }
+
+    .text-featured{
+      text-align: center !important;
+      .subtitle{
+        text-align: center;
+        margin: auto;
+
+        p{
+          margin: auto;
+          text-align: center;
+          margin-top: 2em !important;
+        }
+      }
+
+      .featured-desc{
+        text-align: center !important;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
     }
   }
 
@@ -1574,14 +1632,25 @@ ul {
 
 @media only screen and (max-width: 768px), only screen and (max-device-width:768px) { 
 
+  #home{
+    .wave{
+      height: 50vh !important;
+    }
+  }
+
+  .navbar-collapse {
+    text-align: center !important;
+    margin: auto !important;
+   }
+
   .intro{
     display: grid;
-    grid-template-columns: repeat(1,auto);
-    
+    grid-template-columns: repeat(1,auto) !important;
+    margin-top: 3em;
     text-align: center;
     .text-container{
       text-align: center;
-     
+       margin: auto;
       h1{
         font-size: 40px !important;
         
@@ -1598,25 +1667,31 @@ ul {
     svg{
       display: none;
     }
+
+    .scroll-down{
+      display: none;
+    }
+
   }
 
   .about{
-    display: grid;
-    grid-template-columns: repeat(1,auto);
-    justify-content: center;
+    display: grid !important;
+    grid-template-columns: repeat(1,auto) !important;
+    justify-content: center !important;
 
     .text-featured{
-      margin: auto;
+      margin: auto !important;
 
       .subtitle{
-        margin-bottom: 1em;
-        text-align: center;
+        margin-bottom: 1em !important;
+        text-align: center !important;
       
       }
 
       p{
-        margin-left: 2em;
-        margin-right: 2em;
+        margin-left: 3em !important;
+        margin-right: 3em !important;
+       
       }
 
     }
@@ -1625,6 +1700,18 @@ ul {
    
      
       display: none !important;
+    }
+  }
+
+  .skills{
+
+    .text-featured{
+      text-align: center;
+      margin: auto !important;
+      p{
+        text-align: center !important;
+        margin: auto !important;
+      }
     }
   }
 
@@ -1645,6 +1732,10 @@ ul {
     grid-template-columns: repeat(1,auto) !important;
     justify-content: center !important;
     align-items: center !important;
+
+    .people{
+      margin: auto !important;
+    }
   }
 
   .interested{
@@ -1678,14 +1769,23 @@ ul {
 @media only screen and (max-width: 992px) { 
   
 
+  #home{
+    .wave{
+      height: 55vh !important;
+    }
+  }
 
+  .navbar-collapse {
+    text-align: center !important;
+    margin: auto !important;
+   }
 
   .intro{
     display: grid;
-    grid-template-columns: repeat(2,auto);
-    justify-content: space-around;
-    top: 15vh;
-    
+    grid-template-columns: repeat(2,auto) !important;
+    justify-content: center !important;
+    margin-top: 3em;
+  
     
     .text-container{
 
@@ -1697,7 +1797,17 @@ ul {
         font-size: 18px;
         
       }
+
+
     
+    }
+
+    svg{
+      margin-left: 5em !important;
+    }
+
+    .scroll-down{
+      display: none;
     }
 
   }
@@ -1793,7 +1903,7 @@ ul {
   .intro{
     display: grid;
     grid-template-columns: repeat(2,auto);
-    justify-content: space-around;
+    justify-content: center;
     top: 15vh;
     
     
@@ -1809,6 +1919,12 @@ ul {
       }
     
     }
+
+    svg{
+      margin-left: 15em;
+    }
+
+
 
   }
 
@@ -1838,6 +1954,7 @@ ul {
       display: block;
       margin: auto;
       width: 80%;
+      margin-left: 2em;
     }
   }
 
@@ -1883,6 +2000,10 @@ ul {
     }
 
     
+  }
+
+  .footer{
+    margin-top: -1em;
   }
 
 }

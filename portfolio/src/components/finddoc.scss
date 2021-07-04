@@ -74,10 +74,11 @@
     }
 
     .row-diagrams{
+   
       img{
-        margin-left: 5em;
-        margin-bottom: 3em;
-        width: 970px;
+        margin: auto;
+        display: block;
+        width: 90%;
       
       }
 
@@ -180,7 +181,8 @@
         -moz-transition: transform 1.05s ease-in-out;
         -ms-transition: transform 1.05s ease-in-out;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
-        width: 1000px;
+        width: 90%;
+        margin: auto;
       }
     }
 
@@ -219,33 +221,34 @@
   }
 }
 
-@media only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
 
   .modal-body-doc{
   
     .carousel{
-      text-align: center;
+      text-align: center ;
       border-radius: 2em;
       margin-bottom: 2em;
       margin-top: 1em;
     
 
       img{
-
-        width: 500px !important;
+        
+        width: auto;
       }
     }
 
     img{
       margin: auto;
-      width: 500px;
+      width: 90%;
     }
 
     .row-diagrams{
       margin: auto;
       img{
-        width: 500px !important;
-        margin-left: 0.3em !important;
+        width: 90%;
+        
+
      
       }
     }
@@ -253,8 +256,8 @@
     .gitlab{
       a{
         
-        margin: auto !important;
-        margin-left: 1em !important;
+        margin: auto ;
+        margin-left: 1em ;
         
       }
     }
@@ -274,7 +277,7 @@
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px), only screen and (max-device-width:768px) {
 
   .modal-body-doc{
   
@@ -287,19 +290,20 @@
 
       img{
 
-        width: 600px !important;
+        width: auto ;
       }
     }
 
     img{
       margin: auto;
-      width: 700px;
+      width: 90%;
     }
 
     .row-diagrams{
       margin: auto;
       img{
-        width: 600px !important;
+        width: 90% ;
+      
     
       }
     }
@@ -339,20 +343,20 @@
 
       img{
 
-        width: 800px;
+        width: 90%;
       }
     }
 
     img{
       margin: auto;
-      width: 800px;
+      width: 90%;
     }
 
     .row-diagrams{
       margin: auto;
       img{
-        width: 800px;
-        margin-left: 1em;
+        width: 90%;
+     
     
       }
     }
